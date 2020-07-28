@@ -1,10 +1,4 @@
-/*
 
-Vanilla Template
-
-https://templatemo.com/tm-526-vanilla
-
-*/
 
 p {
   font-size: 15px;
@@ -122,14 +116,16 @@ a:hover { color: #FF0; }
 }
 
 
+
+
 .primary-button a {
   display: inline-block;
-  background-color: #ff7d27;
+  background-color: #31ab1085;
   padding: 15px 24px;
   border-radius: 3px;
   text-transform: uppercase;
-  font-size: 11px;
-  color: #fff;
+  font-size: 15px;
+  color: rgb(47, 8, 8);
   font-weight: 700;
   text-decoration: none;
   letter-spacing: 0.5px;
@@ -146,7 +142,7 @@ a:hover { color: #FF0; }
 .baner-content {
   padding-top: 30vh;
   text-align: center;
-  background-image: url(../img/1st-section.jpg);
+  background-image: url(../img/section1.jpeg);
 }
 
 .baner-content h1 {
@@ -159,7 +155,7 @@ a:hover { color: #FF0; }
 }
 
 .baner-content em {
-  color: #ff7d27;
+  color: #427b09;
   font-weight: 600;
   font-style: normal;
 }
@@ -241,7 +237,13 @@ h4, .h4 {
   margin: 20px auto 15px auto;
 }
 
-
+#team-mem-name{
+  background-color: rgba(0, 0, 0, 0.5);
+    padding: 25px 30px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px
+}
 
 .projects-content {
   padding-top: 20vh;
@@ -529,6 +531,15 @@ footer em {
     text-align: center;
     color: #fff;
     margin-bottom: 30px;
+  }
+
+  .service-item2{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 25px 30px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+    border-radius: 50%;
   }
 
 }
