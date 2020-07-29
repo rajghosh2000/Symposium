@@ -142,7 +142,11 @@ a:hover { color: #FF0; }
 .baner-content {
   padding-top: 30vh;
   text-align: center;
-  background-image: url(../img/section1.jpeg);
+  background-color: #5b676d;
+  background-image: url(../img/test/test5.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
 }
 
 .baner-content h1 {
