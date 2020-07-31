@@ -383,6 +383,13 @@ section {
   clear:both;
 }
 
+.reg-content {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 16vh;
+  background-image: url(../img/section1.jpeg);
+}
+
 
 .contact-content {
   padding-left: 15px;
