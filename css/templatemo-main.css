@@ -245,11 +245,18 @@ h4, .h4 {
   width: 45px;
   height: 3px;
   background-color: #499d0d;
-  margin: 20px 0px 20px 0px;
+  margin: 20px auto 15px auto;
+}
+
+.line-dec3{
+  width: 45px;
+  height: 3px;
+  background-color: #499d0d;
+  margin: 20px auto 15px auto;
 }
 
 .line-dec2{
-  width: 45px;
+  width: 300px;
   height: 3px;
   background-color: #499d0d;
   margin: 20px 0px 20px 0px;
@@ -298,6 +305,21 @@ h4, .h4 {
     color: #fff;
     margin-bottom: 30px
 }
+
+.line-dec-team-sir{
+  width: 50px;
+  height: 3px;
+  background-color: #499d0d;
+  margin: 20px 0px 20px 0px;
+}
+
+.line-dec-team-mem{
+  width: 45px;
+  height: 3px;
+  background-color: #499d0d;
+  margin: 20px auto 15px auto;
+}
+
 
 .projects-content {
   padding-top: 20vh;
