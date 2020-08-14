@@ -138,6 +138,42 @@ a:hover { color: #FF0; }
   background-size: cover;
 }
 
+.parallax-content .line-dec{
+  width: 45px;
+  height: 3px;
+  background-color: #246a06;
+  margin: 20px 0px 20px 0px;
+}
+.parallax-content .text-speaker{
+  padding-top: 5px;
+  padding-bottom: 50px;
+  margin-top: 0px;
+  font-size: 40px;
+  color: #fcfffb;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.parallax-content .primary-button-paralax{
+  display: inline-block;
+  background-color: #31ab1085;
+  padding: 15px 24px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: rgb(22, 3, 3);
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.parallax-content .parallax-item{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 25px 30px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+    border-radius: 5%;
+}
 
 .baner-content {
   padding-top: 30vh;
@@ -195,6 +231,12 @@ a:hover { color: #FF0; }
   color: #fff;
 }
 
+.service-content .left-text2 {
+  font-size: 20px;
+  color: #fff;
+  margin: auto;
+}
+
 h4, .h4 {
   font-size: 18px;
 }
@@ -202,7 +244,7 @@ h4, .h4 {
 .service-content .left-text .line-dec {
   width: 45px;
   height: 3px;
-  background-color: #ff7d27;
+  background-color: #499d0d;
   margin: 20px 0px 20px 0px;
 }
 
@@ -239,12 +281,13 @@ h4, .h4 {
   text-align: center;
   color: #fff;
   margin-bottom: 30px;
+  border-radius: 50px;
 }
 
 .service-content .service-item .line-dec {
   width: 45px;
   height: 3px;
-  background-color: #ff7d27;
+  background-color: #499d0d;
   margin: 20px auto 15px auto;
 }
 
