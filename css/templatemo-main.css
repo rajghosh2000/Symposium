@@ -120,7 +120,7 @@ a:hover { color: #FF0; }
 
 .primary-button a {
   display: inline-block;
-  background-color: #31ab1085;
+  background-color: #7b7c7a85;
   padding: 15px 24px;
   border-radius: 3px;
   text-transform: uppercase;
@@ -563,9 +563,6 @@ section {
   border:4px solid #ff7d27;
 }
 
-.tabgroup div  {
-
-}
 
 .tabgroup p {
   background-color: rgba(0, 0, 0, 0.5);
@@ -583,7 +580,7 @@ section {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 16vh;
-  background-image: url(../img/backImg/css6-min.jpg);
+  background-image: url(../img/section2.jpg);
 }
 
 
@@ -625,7 +622,7 @@ section {
   outline: none;
   border: none;
   box-shadow: none;
-  height: 165px;
+  height: 160px;
   max-height: 220px;
   width: 100%;
   margin-bottom: 25px;
@@ -985,4 +982,110 @@ body.lb-disable-scrolling {
   cursor: pointer;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
+}
+
+ /* Timeline */
+ .timeline ul {
+  padding: 50px 0;
+}
+
+.timeline ul li {
+  color: white;
+  list-style-type: none;
+  position: relative;
+  width: 6px;
+  margin: 0 auto;
+  padding-top: 50px;
+  background: #fff;
+}
+
+.timeline ul li::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: inherit;
+}
+
+.timeline ul li div {
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 400px;
+  padding: 15px;
+  background: #246a06;
+}
+
+.timeline ul li div::before {
+  content: '';
+  position: absolute;
+  bottom: 7px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.timeline ul li:nth-child(odd) div {
+  left: 45px;
+}
+
+.timeline ul li:nth-child(odd) div::before {
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent #246a06 transparent transparent;
+}
+
+.timeline ul li:nth-child(even) div {
+  left: -439px;
+}
+
+.timeline ul li:nth-child(even) div::before {
+  right: -15px;
+  border-width: 8px 0 8px 16px;
+  border-color: transparent transparent transparent #246a06;
+}
+
+time {
+  color: white;
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+
+
+
+/* GENERAL MEDIA QUERIES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media screen and (max-width: 900px) {
+  .timeline ul li div {
+    width: 250px;
+  }
+  .timeline ul li:nth-child(even) div {
+    left: -289px;
+    /*250+45-6*/
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .timeline ul li {
+    margin-left: 20px;
+  }
+  .timeline ul li div {
+    width: calc(100vw - 91px);
+  }
+  .timeline ul li:nth-child(even) div {
+    left: 45px;
+  }
+  .timeline ul li:nth-child(even) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #F45B69 transparent transparent;
+  }
 }
