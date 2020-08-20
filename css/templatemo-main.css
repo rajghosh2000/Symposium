@@ -138,6 +138,17 @@ a:hover { color: #FF0; }
   background-size: cover;
 }
 
+ .parallax-content ul{
+  list-style-type: "→";
+}
+
+.speaker-about{
+  justify-items: center;
+  align-items: flex-start;
+}
+
+
+
 .parallax-content .line-dec{
   width: 45px;
   height: 3px;
