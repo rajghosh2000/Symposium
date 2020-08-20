@@ -22,7 +22,12 @@ a:hover { color: #FF0; }
 /*----------
   NAV
 ----------*/
-
+.Logo{
+  width: 15%;
+  position:fixed; 
+	top:0; 
+	left:1%;
+}
 .fixed-side-navbar {
   position: fixed;
   top: 50%;
