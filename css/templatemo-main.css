@@ -255,10 +255,20 @@ a:hover { color: #FF0; }
   font-size: 30px;
   font-weight: bold;
   color: rgb(95, 213, 27);
+  font-weight: bold; text-shadow:  4px 4px rgb(14, 13, 13);
 }
-
+.service-content .left-text .wrap {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 25px 30px;
+  text-align: start;
+  color: #fff;
+  margin-bottom: 30px;
+  border-radius: 50px;
+  width: 100%;
+  font-size: medium;
+  font-family: 'Courier New', Courier, monospace;
+}
 .service-content .left-text p {
-  font-weight: bold;
   color: rgb(13, 241, 142);
 }
 
@@ -314,12 +324,27 @@ h4, .h4 {
 }
 
 .service-content .service-item {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.8);
   padding: 25px 30px;
-  text-align: center;
+  text-align: start;
   color: #fff;
   margin-bottom: 30px;
   border-radius: 50px;
+  width: 100%;
+}
+.service-content .service-item ul{
+  list-style-type: "→ ";
+}
+
+.service-content .service-item ul li {
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.service-content .left-text-obj h4{
+  font-size: x-large; 
+  color: rgb(95, 213, 27);
+  font-weight: bold; text-shadow:  2px 2px rgb(14, 13, 13);
 }
 
 .service-content .service-item .line-dec {
