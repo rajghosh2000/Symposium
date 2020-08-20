@@ -576,19 +576,27 @@ section {
   clear:both;
 }
 
-.parallax-content .reg-content {
+.reg-content {
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 16vh;
+  padding-top: 8vh;
   background-image: url(../img/backImg/css6-min.jpg);
+  background-attachment: fixed;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center center;
 }
 
 
 .contact-content {
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 16vh;
+  padding-top: 8vh;
   background-image: url(../img/backImg/css6-min.jpg);
+  background-attachment: fixed;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center center;
 }
 
 .contact-form {
