@@ -28,6 +28,14 @@ a:hover { color: #FF0; }
 	top:0; 
 	left:1%;
 }
+@media (max-width: 767px) {
+  .Logo{
+    width: 31%;
+    position:fixed; 
+    top:0%; 
+    left: 1%;
+  }
+}
 .fixed-side-navbar {
   position: fixed;
   top: 50%;
