@@ -576,7 +576,7 @@ section {
   clear:both;
 }
 
-.reg-content {
+.parallax-content .reg-content {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 16vh;
