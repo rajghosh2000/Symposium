@@ -116,7 +116,6 @@ a:hover { color: #FF0; }
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   border-color: black;
-  boder-right: 0;
 }
 .fixed-side-navbar .nav > li a:hover > span {
   color: black;
@@ -289,6 +288,13 @@ h4, .h4 {
   margin: 20px auto 15px auto;
 }
 
+.service-content .left-text-obj .line-dec{
+  width: 100px;
+  height: 3px;
+  background-color: #499d0d;
+  margin: 10px auto 10px auto;
+}
+
 .line-dec3{
   width: 45px;
   height: 3px;
@@ -354,6 +360,22 @@ h4, .h4 {
   margin: 20px auto 15px auto;
 }
 
+
+
+.line-dec3{
+  width: 45px;
+  height: 3px;
+  background-color: #499d0d;
+  margin: 20px auto 15px auto;
+}
+
+.line-dec2{
+  width: 300px;
+  height: 3px;
+  background-color: #499d0d;
+  margin: 20px 0px 20px 0px;
+}
+
 .project-content {
   padding-left: 15px;
   padding-right: 15px;
@@ -366,9 +388,9 @@ h4, .h4 {
 }
 
 .project-content .left-text h4 {
-  font-size: 30px;
-  font-weight: bold;
-  color: rgb(95, 213, 27);
+  font-size: 30px; 
+  color: #499d0d; 
+  font-weight: bold; text-shadow:  4px 2px rgb(14, 13, 13);
 }
 
 .project-content .left-text p {
@@ -393,20 +415,6 @@ h4, .h4 {
   margin: 20px auto 15px auto;
 }
 
-.line-dec3{
-  width: 45px;
-  height: 3px;
-  background-color: #499d0d;
-  margin: 20px auto 15px auto;
-}
-
-.line-dec2{
-  width: 300px;
-  height: 3px;
-  background-color: #499d0d;
-  margin: 20px 0px 20px 0px;
-}
-
 .project-content .left-text p {
   color: #fff;
 }
@@ -428,12 +436,19 @@ h4, .h4 {
 }
 
 .project-content .service-item {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
   padding: 25px 30px;
-  text-align: center;
   color: #fff;
   margin-bottom: 30px;
   border-radius: 50px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.project-content .service-item h4{
+  text-align: center;
+}
+.project-content .service-content p {
+  text-align: start;
 }
 
 .project-content .service-item .line-dec {
@@ -442,6 +457,35 @@ h4, .h4 {
   background-color: #499d0d;
   margin: 20px auto 15px auto;
 }
+.project-content .primary-button-spklop a{
+  display: inline-block;
+  background-color: #499d0d;
+  padding: 15px 24px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: rgb(47, 8, 8);
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  text-align: center;
+  width: 70%;
+}
+.project-content .primary-button-spk a{
+  display: inline-block;
+  background-color: #499d0d;
+  padding: 15px 24px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: rgb(47, 8, 8);
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  text-align: center;
+  width: 100%;
+}
+
 #team-mem-name{
   background-color: rgba(0, 0, 0, 0.5);
     padding: 25px 30px;
@@ -764,8 +808,6 @@ footer em {
     font-size: 64px;
   }
 
-  .baner-content em {
-  }
 
   .baner-content span {
     font-size: 24px;
