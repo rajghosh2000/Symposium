@@ -20,10 +20,7 @@
 
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
-<!--
-Vanilla Template
-https://templatemo.com/tm-526-vanilla
--->
+
 
 <body>
     <div class="fixed-side-navbar">
@@ -38,7 +35,7 @@ https://templatemo.com/tm-526-vanilla
                 <a class="nav-link" href="#speaker"><span>Speaker</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#registration"><span>Registration</span></a>
+                <a class="nav-link" href="#registration"><span>Past Events</span></a>
             </li>
             <!-- <li class="nav-item"><a class="nav-link" href="team.html"><span>Our Team</span></a></li> -->
             <li class="nav-item">
@@ -168,21 +165,7 @@ https://templatemo.com/tm-526-vanilla
         </div>
     </div>
 
-    <!-- THis part is for the registration form designing -->
-
-    <div class="parallax-content reg-content" id="registration">
-        <div class="container">
-            <div class="col-md-8 mx-auto">
-                <span style="font-size: xx-large;"><em style="color: aliceblue;">Register</em><em
-                        style="color: #8efb21;">Here</em>
-                </span>
-            </div>
-            <iframe
-                src="https://docs.google.com/forms/d/e/1FAIpQLScpEFNkD3KODIfVAOd44FY6Rkr2iysXm2UPGByuqEOIMhPGsg/viewform?embedded=true"
-                width="100%" height="568" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-        </div>
-    </div>
-    <!-- registration part ends-->
+   
 
     <!-- ======= Team Section ======= -->
 
@@ -326,6 +309,31 @@ https://templatemo.com/tm-526-vanilla
         </div>
     </div>
 
+     <!-- THis part is for the registration form designing -->
+
+     <div class="parallax-content reg-content" id="registration">
+        <div class="container">
+            <div class="col-md-8 mx-auto">
+                <span style="font-size: xx-large;"><em style="color: aliceblue;">Past</em><em
+                        style="color: #8efb21;">Events</em>
+                </span>
+            </div>
+            <!-- The Timeline -->
+            <div class="timeline">
+                <ul>
+                  <li>
+                    <div>
+                      <time>Event Title, Event Date</time> Gist of first event
+                    </div>
+                  </li>
+                  
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- registration part ends-->
+
     <!-- <div class="tabs-content" id="our-story">
         <div class="container">
             <div class="row">
@@ -367,25 +375,24 @@ https://templatemo.com/tm-526-vanilla
                 <div class="col-md-6">
                     <div class="contact-form">
                         <div class="row">
-                            <form id="contact" action="" method="post">
+                            <form id="contact" action="" method="post" data-netlify="true">
                                 <div class="row">
                                     <div class="col-md-12">
                                         <fieldset>
                                             <input name="name" type="text" class="form-control" id="name"
-                                                placeholder="Your name..." required="" />
+                                                placeholder="Your Name" required="" />
                                         </fieldset>
                                     </div>
                                     <div class="col-md-12">
                                         <fieldset>
                                             <input name="email" type="email" class="form-control" id="email"
-                                                placeholder="Your email..." required="" />
+                                                placeholder="Your Email" required="" />
                                         </fieldset>
                                     </div>
                                     <div class="col-md-12">
                                         <fieldset>
                                             <textarea name="message" rows="6" class="form-control" id="message"
-                                                placeholder="Your
-                                                    message..." required=""></textarea>
+                                                placeholder="Your Message" required=""></textarea>
                                         </fieldset>
                                     </div>
                                     <div class="col-md-12">
@@ -402,15 +409,9 @@ https://templatemo.com/tm-526-vanilla
                 </div>
                 <div class="col-md-6">
                     <div class="map">
-                        <!-- How to change your own map point
-                           1. Go to Google Maps
-                           2. Click on your location point
-                           3. Click "Share" and choose "Embed map" tab
-                           4. Copy only URL and paste it within the src="" field below
-                    -->
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1197183.8373802372!2d-1.9415093691103689!3d6.781986417238027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdb96f349e85efd%3A0xb8d1e0b88af1f0f5!2sKumasi+Central+Market!5e0!3m2!1sen!2sth!4v1532967884907"
-                            width="100%" height="390" frameborder="1" style="border: 10;" allowfullscreen></iframe>
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d222.7660619109939!2d92.8275826852595!3d26.70423579090629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3744ebb0aeec46fb%3A0x58910c2e9e88cb03!2sDepartment%20of%20Computer%20Science%20%26%20Engineering!5e0!3m2!1sen!2sin!4v1597929467346!5m2!1sen!2sin" 
+                            width="100%" height="394" frameborder="1" style="border: 10;" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
