@@ -120,7 +120,7 @@ a:hover { color: #FF0; }
 
 .primary-button a {
   display: inline-block;
-  background-color: #7b7c7a85;
+  background-color: #499d0d;
   padding: 15px 24px;
   border-radius: 3px;
   text-transform: uppercase;
@@ -190,9 +190,11 @@ a:hover { color: #FF0; }
   padding-top: 30vh;
   text-align: center;
   background-color: #5b676d;
-  background-image: url(../img/backImg/css1-min.jpg);
+  background-image: url(../img/backImg/css6-min.jpg);
+  background-attachment: fixed;
+  min-height: 100vh;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-position: center center;
   
 }
 
