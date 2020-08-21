@@ -24,7 +24,7 @@ a:hover { color: #FF0; }
 .Logo{
   width: 40%;
   position: absolute;
-  top: 0;
+	top:0; 
   left:0;
   right: 0;
   bottom: 0;
@@ -32,13 +32,10 @@ a:hover { color: #FF0; }
 }
 @media (max-width: 767px) {
   .Logo{
-  width: 82%;
-  position: absolute;
-  top: 0;
-  left:0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
+    width: 82%;
+    position: absolute;
+    top: 0;
+    left:0;
   }
 }
 .fixed-side-navbar {
@@ -1134,8 +1131,8 @@ body.lb-disable-scrolling {
   bottom: 0;
   width: 400px;
   padding: 15px;
-  background-color:rgba(14, 42, 2, 0.7);
-  box-shadow: 3px 3px 10px #000000;
+  box-shadow: 3px 3px 5px #000000;
+  background: rgb(36, 106, 6, 0.7);
 }
 
 .timeline ul li div::before {
