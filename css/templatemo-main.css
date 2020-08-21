@@ -813,16 +813,16 @@ footer em {
 @media (max-width: 767px){
   
   .baner-content {
-    padding-top: 30vh;
+    padding-top: 25vh;
   }
 
   .baner-content h1 {
-    font-size: 64px;
+    font-size: 62px;
   }
 
 
   .baner-content span {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .baner-content .primary-button {
