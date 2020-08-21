@@ -583,39 +583,6 @@ h4, .h4 {
   margin: 20px auto 15px auto;
 }
 
-
-/* .projects-content {
-  padding-top: 20vh;
-  background-image: url(../img/backImg/css6.png);
-}
-
-.projects-content .item img {
-  width: 100%;
-}
-
-.projects-content .item {
-  margin: 15px;
-}
-
-.projects-content .item .text-content {
-  background-color: #fff;
-  text-align: center;
-  padding: 20px;
-}
-
-.projects-content .item .text-content h4 {
-  margin-top: 0px;
-  font-size: 19px;
-  font-weight: 600;
-}
-
-.projects-content .item .text-content span {
-  font-style: normal;
-  font-size: 17px;
-  font-weight: 700;
-  color: #ff7d27;
-} */
-
 .owl-pagination {
   margin-top: 40px;
   opacity: 1;
