@@ -213,11 +213,8 @@ a:hover { color: #FF0; }
 }
 
 .baner-content {
-  /* padding-left: 15px;
-  padding-right: 15px; */
   padding-top: 30vh;
   text-align: center;
-  /* background-color: #5b676d; */
   background-image: url(../img/backImg/backMain.png);
   background-attachment: fixed;
   min-height: 100vh;
