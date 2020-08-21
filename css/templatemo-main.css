@@ -1119,7 +1119,8 @@ body.lb-disable-scrolling {
   bottom: 0;
   width: 400px;
   padding: 15px;
-  background-color:rgba(14, 42, 2, 0.8)
+  background-color:rgba(14, 42, 2, 0.7);
+  box-shadow: 3px 3px 10px #000000;
 }
 
 .timeline ul li div::before {
@@ -1167,7 +1168,7 @@ time {
 
 @media screen and (max-width: 900px) {
   .timeline ul li div {
-    width: 250px;
+    width: 230px;
   }
   .timeline ul li:nth-child(even) div {
     left: -289px;
