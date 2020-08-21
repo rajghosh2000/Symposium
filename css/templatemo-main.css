@@ -14,6 +14,18 @@ body {
   font-size: 14px;
 }
 
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(24, 41, 41);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: rgb(191, 230, 84);
+}
+
 a { color: #3CC; }
 
 a:hover { color: #FF0; }
