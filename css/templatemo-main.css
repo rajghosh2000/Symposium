@@ -23,17 +23,20 @@ a:hover { color: #FF0; }
   NAV
 ----------*/
 .Logo{
-  width: 15%;
-  position:fixed; 
+  width: 40%;
+  position: absolute;
 	top:0; 
-	left:1%;
+  left:0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
 }
 @media (max-width: 767px) {
   .Logo{
-    width: 31%;
-    position:fixed; 
-    top:0%; 
-    left: 1%;
+    width: 82%;
+    position: absolute;
+    top: 0;
+    left:0;
   }
 }
 .fixed-side-navbar {
@@ -234,7 +237,8 @@ a:hover { color: #FF0; }
 }
 
 .baner-content .primary-button {
-  margin-top: 15px;
+  margin-top: 170px;
+  position: relative;
 }
 
 
@@ -805,7 +809,7 @@ footer em {
 @media (max-width: 767px){
   
   .baner-content {
-    padding-top: 30vh;
+    padding-top: 28vh;
   }
 
   .baner-content h1 {
@@ -1111,7 +1115,8 @@ body.lb-disable-scrolling {
   bottom: 0;
   width: 400px;
   padding: 15px;
-  background: #246a06;
+  box-shadow: 3px 3px 5px #000000;
+  background: rgb(36, 106, 6, 0.7);
 }
 
 .timeline ul li div::before {
