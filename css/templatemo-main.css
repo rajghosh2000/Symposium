@@ -514,6 +514,21 @@ h4, .h4 {
     margin-bottom: 30px
 }
 
+
+.tabs-content .our-team span{
+  font-size: xx-large; 
+  font-weight: bold; 
+  text-shadow:  2px 2px rgb(14, 13, 13);
+}
+
+.tabs-content .our-team em {
+  color: #427b09;
+}
+
+.tabs-content .our-team .em {
+  color: aliceblue;
+}
+
 .tabs-content .wrapper {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 25px 30px;
@@ -695,6 +710,29 @@ section {
   background-position: center center;
 }
 
+.reg-content .past-event span{
+  font-size: xx-large; 
+  font-weight: bold; 
+  text-shadow:  2px 2px rgb(14, 13, 13);
+}
+
+.reg-content .past-event em {
+  color: #427b09;
+}
+
+.reg-content .past-event .em {
+  color: aliceblue;
+}
+
+.reg-content .past-event .line-dec{
+  width: 300px;
+  height: 3px;
+  background-color: #499d0d;
+  margin: 20px 0px 20px 0px;
+}
+
+
+
 
 .contact-content {
   padding-left: 15px;
@@ -711,6 +749,27 @@ section {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 30px 25px;
   margin-bottom: 30px;
+}
+
+.contact-content .contact-us span{
+  font-size: xx-large; 
+  font-weight: bold; 
+  text-shadow:  2px 2px rgb(14, 13, 13);
+}
+
+.contact-content .contact-us em {
+  color: aliceblue;
+}
+
+.contact-content .contact-us .em {
+  color: #427b09;
+}
+
+.contact-content .contact-us .line-dec{
+  width: 300px;
+  height: 3px;
+  background-color: #499d0d;
+  margin: 20px 0px 20px 0px;
 }
 
 #contact input {
