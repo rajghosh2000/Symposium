@@ -76,7 +76,8 @@
             </div>
             <div class="wrap">
               <p>
-                We are the students from Engineering who opted to start a webinar series for the students who are quite keen
+                We are the students from Engineering who opted to start a webinar series for the students who are quite
+                keen
                 to know about the industrial life that awaits in our upcoming future. The team is lead by one of the
                 best professor from CSE dept Dr. Arindam Karmakar Sir. We wish to present some of the finest speakers
                 who themselves are in that sector with a lot of experience in their respective fields.
@@ -201,6 +202,14 @@
             </div>
           </div>
         </div>
+        <div class="col-md-6">
+          <div class="col-md-12 eve-date">
+            <p>
+              DATE OF EVENT : 30-08-2020<br><br>
+              EVENT TIMING  : 17.00 Hours
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -211,8 +220,8 @@
     <div class="container">
       <div class="col-md-8 mx-auto past-event">
         <span><em>Past</em><em class="em">Events</em>
-      </span>
-      <div class="line-dec"></div>
+        </span>
+        <div class="line-dec"></div>
       </div>
       <div class="timeline">
         <ul>
@@ -233,7 +242,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-8 mx-auto our-team">
-          <span >
+          <span>
             <em>Our</em><em class="em">Team</em>
           </span>
           <div class="line-dec2"></div>
@@ -295,7 +304,8 @@
                       Parashmoni Borah
                     </h4>
                     <h3>Member</h3>
-                    <a class="fa fa-linkedin" style="color: #1574c7; font-size: 24px;" href="https://www.linkedin.com/in/parash-bora-24a215166" target="_blank"></a>
+                    <a class="fa fa-linkedin" style="color: #1574c7; font-size: 24px;"
+                      href="https://www.linkedin.com/in/parash-bora-24a215166" target="_blank"></a>
                   </div>
                 </div>
                 <div class="col-md-4 p-4">
@@ -343,13 +353,13 @@
     </div>
   </div>
 
- <!-- Contact Us Page -->
+  <!-- Contact Us Page -->
   <div class="contact-content" id="contact-us">
     <div class="container">
       <div class="col-md-8 mx-auto contact-us">
         <span><em>Contact</em><em class="em">-</em><em>Us</em>
-      </span>
-      <div class="line-dec"></div>
+        </span>
+        <div class="line-dec"></div>
       </div>
       <div class="row">
         <div class="col-md-6">
@@ -415,7 +425,7 @@
               <a href="https://www.linkedin.com/company/cs-symposium" target="_blank"><i class="fa fa-linkedin"></i></a>
             </li>
             <li>
-              <a href="https://twitter.com/CsSymposium" target="_blank"><i class="fa fa-twitter" ></i></a>
+              <a href="https://twitter.com/CsSymposium" target="_blank"><i class="fa fa-twitter"></i></a>
             </li>
             <li>
               <a href="https://www.instagram.com/cs_symposium_/" target="_blank"><i class="fa fa-instagram"></i></a>
@@ -440,6 +450,10 @@
   <script src="js/vendor/bootstrap.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <script type="text/javascript" src="kinetic.js"></script>
+  <script type="text/javascript" src="jquery.final-countdown.js"></script>
+
   <script>
     function openCity(cityName) {
       var i;
@@ -479,6 +493,15 @@
       });
     });
   </script>
+  <script>
+    $(function() {   
+     $('.countdown').final_countdown({
+            'start': 1362139200,
+            'end': 1388461320,
+            'now': 1387461319        
+        });
+    });
+    </script>
 </body>
 
 </html>
