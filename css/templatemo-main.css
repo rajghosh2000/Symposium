@@ -526,7 +526,7 @@ h4, .h4 {
 }
 
 .project-content .eve-date p{
-  font-size: 27px;
+  font-size: 25px;
   font-weight:bold;
 }
 
@@ -540,7 +540,7 @@ h4, .h4 {
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
   color: white;
-  font-size: 21px;
+  font-size: 20px;
 }
 
 .project-content .counter .count-eve{
@@ -556,7 +556,7 @@ h4, .h4 {
 
 .project-content .counter .count-eve span{
   display:block;
-  font-size: 30px;
+  font-size: 25px;
   margin-top: 10px;
   font-weight: bolder;
 }
