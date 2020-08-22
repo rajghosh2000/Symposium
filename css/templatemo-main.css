@@ -614,14 +614,6 @@ h4, .h4 {
   color: rgb(245, 253, 243);
 }
 
-
-.line-dec-team-sir{
-  width: 50px;
-  height: 3px;
-  background-color: #499d0d;
-  margin: 20px 0px 20px 0px;
-}
-
 .line-dec-team-mem{
   width: 45px;
   height: 3px;
@@ -1289,11 +1281,20 @@ time {
     border-color: transparent #F45B69 transparent transparent;
   }
   .project-content .primary-button-spk a{
-    width: 70%;
-    margin:50px;
+    width: 78%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+  }
+  .project-content .primary-button-spklop a{
+    margin-left: 18px;
   }
   .project-content .eve-date p{
     font-size: 23px;
+    font-weight:bold;
+  }
+  .project-content .eve-date p span{
+    font-size: 10px;
     font-weight:bold;
   }
   .project-content .counter .count-eve{
