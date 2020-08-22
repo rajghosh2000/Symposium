@@ -215,7 +215,7 @@ a:hover { color: #FF0; }
 .baner-content {
   padding-top: 30vh;
   text-align: center;
-  background-image: url(../img/backImg/backMain.png);
+  /* background-image: url(../img/backImg/backMain.png); */
   background-attachment: fixed;
   min-height: 100vh;
   background-size: cover;
@@ -272,7 +272,7 @@ a:hover { color: #FF0; }
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 15vh;
-  background-image: url(../img/backImg/backMain.png);
+  /* background-image: url(../img/backImg/backMain.png); */
   background-attachment: fixed;
   min-height: 100vh;
   background-size: cover;
@@ -409,7 +409,7 @@ h4, .h4 {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 15vh;
-  background-image: url(../img/backImg/backMain.png);
+  /* background-image: url(../img/backImg/backMain.png); */
   background-attachment: fixed;
   min-height: 100vh;
   background-size: cover;
@@ -614,7 +614,7 @@ h4, .h4 {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 8vh;
-  background-image: url(../img/backImg/backMain.png);
+  /* background-image: url(../img/backImg/backMain.png); */
   background-attachment: fixed;
   min-height: 100vh;
   background-size: cover;
@@ -679,7 +679,7 @@ section {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 8vh;
-  background-image: url(../img/backImg/backMain.png);
+  /* background-image: url(../img/backImg/backMain.png); */
   background-attachment: fixed;
   min-height: 100vh;
   background-size: cover;
@@ -714,7 +714,7 @@ section {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 8vh;
-  background-image: url(../img/backImg/backMain.png);
+  /* background-image: url(../img/backImg/backMain.png); */
   background-attachment: fixed;
   min-height: 100vh;
   background-size: cover;
@@ -1223,6 +1223,10 @@ time {
     left: -289px;
     /*250+45-6*/
   }
+  .baner-content {
+    background-image: url(../img/backImg/backMain.png) ;
+  }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -1241,3 +1245,65 @@ time {
     border-color: transparent #F45B69 transparent transparent;
   }
 }
+@media (max-width: 480px) {
+  .baner-content {
+    background-image: url(../img/backImg/backMain.png);
+ }
+ .service-content{
+  background-image: url(../img/backImg/backMain.png);
+ }
+ .project-content{
+  background-image: url(../img/backImg/backMain.png);
+ }
+ .tabs-content{
+  background-image: url(../img/backImg/backMain.png);
+ }
+ .reg-content{
+  background-image: url(../img/backImg/backMain.png);
+ }
+ .contact-content{
+  background-image: url(../img/backImg/backMain.png);
+ }
+}
+@media (min-width: 481px) and (max-width: 1024px) {
+  .baner-content {
+    background-image: url(../img/backImg/backMain.png);
+ }
+ .service-content{
+  background-image: url(../img/backImg/backMain.png);
+ }
+ .project-content{
+  background-image: url(../img/backImg/backMain.png);
+ }
+ .tabs-content{
+  background-image: url(../img/backImg/backMain.png);
+ }
+ .reg-content{
+  background-image: url(../img/backImg/backMain.png);
+ }
+ .contact-content{
+  background-image: url(../img/backImg/backMain.png);
+ }
+}
+@media (min-width: 1025px) {
+ .baner-content {
+    background-image: url(../img/backImg/backMain.png);
+ }
+ .service-content{
+  background-image: url(../img/backImg/backMain.png);
+ }
+ .project-content{
+  background-image: url(../img/backImg/backMain.png);
+ }
+ .tabs-content{
+  background-image: url(../img/backImg/backMain.png);
+ }
+ .reg-content{
+  background-image: url(../img/backImg/backMain.png);
+ }
+ .contact-content{
+  background-image: url(../img/backImg/backMain.png);
+ }
+}
+
+
