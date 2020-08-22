@@ -1253,7 +1253,7 @@ time {
 /* GENERAL MEDIA QUERIES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-@media screen and (max-width: 900px) {
+@media screen and ( max-width: 900px) {
   .timeline ul li div {
     width: 230px;
   }
@@ -1261,13 +1261,33 @@ time {
     left: -289px;
     /*250+45-6*/
   }
-  .baner-content{
+  /* min-width : 601 and */
+  /* .baner-content{
     padding-top: 450px;
   }
-  
-
+  .tabs-content .wrapper .service-item img{
+    padding-left: 100px;
+  }
+  .project-content .counter .count-eve{
+    width: 30%;
+  }
+  .project-content .primary-button-spk a{
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 65px;
+  }
+  .project-content .left-text img {
+    margin-left: 140px;
+  }
+  .project-content .primary-button-spklop a{
+    margin-left: 20px;
+    width: 85%;
+  }
+  .service-content .left-text h4{
+    margin-right: 400px; */
+  /* } */
 }
-
 @media screen and (max-width: 600px) {
   .timeline ul li {
     margin-left: 20px;
