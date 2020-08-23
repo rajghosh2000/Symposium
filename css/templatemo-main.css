@@ -586,6 +586,13 @@ h4, .h4 {
     margin-bottom: 30px
 }
 
+.tabs-content .our-team .primary-button{
+  margin-left: 0%;
+}
+
+.tabs-content .our-team .primary-button a{
+  font-size: 10px;
+}
 
 .tabs-content .our-team span{
   font-size: xx-large; 
