@@ -480,6 +480,12 @@ h4, .h4 {
   text-align: start;
 }
 
+.project-content .service-item h5{
+  text-align: center;
+  font-weight: bold;
+  font-size: medium;
+}
+
 .project-content .service-item .line-dec {
   width: 45px;
   height: 3px;
@@ -1322,11 +1328,14 @@ time {
   }
   .project-content .primary-button-spklop a{
     margin:auto;
+    margin-bottom: 10px;
   }
-  .project-content .primary-button-spklop a span{
-    font-size: 6.5px;
+  .project-content .service-item h5{
     text-align: start;
+    font-weight: bold;
+    font-size: 20px;
   }
+  
   .project-content .eve-date p{
     font-size: 17px;
     font-weight:bold;
