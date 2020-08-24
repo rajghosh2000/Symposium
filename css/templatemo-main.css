@@ -505,6 +505,12 @@ h4, .h4 {
   width: 80%;
 }
 
+/* .project-content .service-item .spk-exp{
+  height: 20px;
+  width: 0%;
+} */
+
+
 .project-content .primary-button-spklop a p{
   text-align: center;
   color: rgb(47, 8, 8);
