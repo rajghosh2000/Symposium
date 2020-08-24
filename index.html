@@ -64,7 +64,7 @@
   </div>
 
 
- 
+
 
 
   <!-- Speaker Page -->
@@ -87,8 +87,8 @@
                 <div class="primary-button-spklop">
                   <a href="https://www.linkedin.com/in/loopasmita-deka-1566b012b/
                               " target="_blank">
-                         
-                          <p>Loopasmita Deka</p>
+
+                    <p>Loopasmita Deka</p>
                   </a>
                 </div>
               </div>
@@ -102,7 +102,7 @@
               <div class="service-item">
                 <h4><strong>About</strong></h4>
                 <div class="line-dec"></div>
-                <h5>Topic: Uncovering industrial confrontations</h5> 
+                <h5>Topic: Uncovering industrial confrontations</h5>
                 <p>
                   Loopasmita Deka is currently working as a Software Development Engineer in Walmart Labs India. She has
                   also worked as an SDE in Intel for 2.5 years. She is a strong engineering professional having worked
@@ -114,15 +114,15 @@
               <div class="service-item">
                 <h4><strong>Experience</strong></h4>
                 <div class="line-dec"></div>
-                  <div class="row">
+                <div class="row">
                   <div class="col-md-2"></div>
                   <div class="col-md-4">
                     <img class="spk-exp" src="img/intel.png">
                   </div>
                   <div class="col-md-4">
-                    <img src="img/walmart.png">
+                    <img class="spk-exp" src="img/walmart.png">
                   </div>
-              </div>
+                </div>
               </div>
             </div>
             <div class="col-md-7">
@@ -186,8 +186,8 @@
     </div>
   </div>
 
-   <!-- About Us Page -->
-   <div class="service-content" id="services">
+  <!-- About Us Page -->
+  <div class="service-content" id="services">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
@@ -266,7 +266,10 @@
         <ul>
           <li>
             <div>
-              <time>Uncovering industrial confrontations, 30-8-2020</time> Loopasmita Deka is currently working as a Software Development Engineer in Walmart Labs India. She has also worked as an SDE in Intel for 2.5 years. She is a strong engineering professional having worked in the information technology and services industry. 
+              <time>Uncovering industrial confrontations, 30-8-2020</time> Loopasmita Deka is currently working as a
+              Software Development Engineer in Walmart Labs India. She has also worked as an SDE in Intel for 2.5 years.
+              She is a strong engineering professional having worked in the information technology and services
+              industry.
             </div>
           </li>
 
@@ -375,7 +378,7 @@
                     <a href="https://scholar.google.co.in/citations?user=02Uro5oAAAAJ&hl=en" target="_blank">Google
                       Scholar</a>
                   </div>
-                </div> 
+                </div>
               </div>
             </section>
           </div>
@@ -525,25 +528,25 @@
     });
   </script>
   <script>
-   var cnt = new Date(" aug 30,2020 17:00:00").getTime();
-   var x = setInterval(function() {
-     var now = new Date().getTime();
-     var d = cnt - now;
+    var cnt = new Date(" aug 30,2020 17:00:00").getTime();
+    var x = setInterval(function () {
+      var now = new Date().getTime();
+      var d = cnt - now;
 
-     var days = Math.floor(d/(1000*60*60*24));
-     var hours = Math.floor((d%(1000*60*60*24))/(1000*60*60));
-     var minutes = Math.floor((d%(1000*60*60))/(1000*60));
-     var seconds = Math.floor((d%(1000*60))/1000);
+      var days = Math.floor(d / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((d % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((d % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((d % (1000 * 60)) / 1000);
 
-     document.getElementById("days").innerHTML = days;
-     document.getElementById("hrs").innerHTML = hours;
-     document.getElementById("mins").innerHTML = minutes;
-     document.getElementById("sec").innerHTML = seconds;
+      document.getElementById("days").innerHTML = days;
+      document.getElementById("hrs").innerHTML = hours;
+      document.getElementById("mins").innerHTML = minutes;
+      document.getElementById("sec").innerHTML = seconds;
 
-     if(d <= 0){
-       clearInterval(x);
-     }
-   },1000);
+      if (d <= 0) {
+        clearInterval(x);
+      }
+    }, 1000);
   </script>
 </body>
 
