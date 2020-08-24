@@ -1377,8 +1377,8 @@ time {
   }
 
   .project-content .primary-button-spklop a {
-    margin: auto;
     margin-bottom: 10px;
+    width: 100%;
   }
 
   .project-content .service-item h5 {
