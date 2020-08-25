@@ -390,14 +390,14 @@ h4,
   border-radius: 50px;
   width: 100%;
 }
-
 .service-content .service-item ul {
   list-style-type: "→ ";
 }
 
-.service-content .service-item ul li {
+.service-content .service-item li {
   font-size: large;
   font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 5px;
 }
 
 .service-content .left-text-obj h4 {
