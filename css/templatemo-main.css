@@ -420,14 +420,14 @@ h4,
   border-radius: 50px;
   width: 100%;
 }
-
 .service-content .service-item ul {
   list-style-type: "→ ";
 }
 
-.service-content .service-item ul li {
+.service-content .service-item li {
   font-size: large;
   font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 5px;
 }
 
 .service-content .left-text-obj h4 {
@@ -635,6 +635,10 @@ h4,
   font-size: 22px;
   margin-top: 5px;
   font-weight: bolder;
+}
+
+.project-content .service-item .icon-container{
+  display: flex;
 }
 
 #team-mem-name {
@@ -1431,10 +1435,10 @@ time {
     width: 60%;
   }
 
+ 
   .project-content .service-item .spk-exp {
-    height: 120px;
-    width: 50%;
-    margin-top: 20px;
-    margin-left: 60px;
+    height: auto;
+    width: 100%;
+    margin-top: 5px;
   }
 }
