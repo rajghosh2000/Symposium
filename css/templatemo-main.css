@@ -50,7 +50,8 @@ a:hover {
 .tagline {
   color: #00b7ff;
   font-weight: bold;
-  font-size: 20px;
+  max-width: 80%;
+  font-size: 25px;
   -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: black;
   position: absolute;
@@ -59,7 +60,7 @@ a:hover {
   right: 0;
   bottom: 0;
   margin: auto;
-  padding-top: 370px;
+  padding-top: 3602px;
 }
 
 @media (max-width: 767px) {
