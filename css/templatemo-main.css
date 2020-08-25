@@ -59,7 +59,7 @@ a:hover {
   right: 0;
   bottom: 0;
   margin: auto;
-  padding-top: 341px;
+  padding-top: 370px;
 }
 
 @media (max-width: 767px) {
@@ -82,7 +82,7 @@ a:hover {
     right: 0;
     bottom: 0;
     margin: auto;
-    padding-top: 195px;
+    padding-top: 200px;
   }
 }
 
