@@ -414,7 +414,7 @@ h4,
 
 .service-content .service-item {
   background-color: rgba(0, 0, 0, 0.8);
-  padding: 25px 30px;
+  padding: 15px 30px;
   text-align: start;
   color: #fff;
   margin-bottom: 30px;
@@ -428,7 +428,7 @@ h4,
 .service-content .service-item li {
   font-size: large;
   font-family: 'Courier New', Courier, monospace;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .service-content .left-text-obj h4 {
