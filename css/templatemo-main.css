@@ -349,7 +349,7 @@ a:hover {
   width: 100%;
   font-size: medium;
   font-family: 'Courier New', Courier, monospace;
-  padding-top: 23px;
+  margin-top: 32px;
 }
 
 .service-content .left-text p {
@@ -423,6 +423,7 @@ h4,
   margin-bottom: 30px;
   border-radius: 50px;
   width: 100%;
+  margin-top: 10px;
 }
 .service-content .service-item ul {
   list-style-type: "→ ";
