@@ -68,7 +68,17 @@
       -->
       <div class="first-content">
         <div class="primary-button">
-          <a href="#speaker">Register Yourself</a>
+          <script>
+            var scr = screen.width;
+            var linked;
+            if(scr<600){
+              linked = "#fmobile"
+            }
+            else{
+              linked = "#speaker"
+            }
+            document.write('<a href="' + linked + '">Register Yourself</a>'); 
+          </script>
         </div>
       </div>
     </div>
@@ -92,7 +102,7 @@
             </div>
             <div class="col-md-12">
               <div class="col-md-10">
-                <img src="" alt="" />
+                <img src="img/arnab da.png" alt="" class="mb-2"/>
               </div>
               <div class="col-md-12">
                 <div class="primary-button-spklop">
@@ -139,7 +149,7 @@
               </div>
             </div>
             <div class="col-md-7">
-              <div class="service-item">
+              <div class="service-item" id="fmobile">
                 <h4><strong>TU Alumini</strong></h4>
                 <div class="line-dec"></div>
                 <p>
@@ -407,6 +417,19 @@
                 </div>
                 <div class="col-md-4 p-4">
                   <div class="service-item col-md-auto">
+                    <img src="img/Meghna.png" class="img-fluid" alt="" />
+                    <div class="line-dec-team-mem"></div>
+                    <h4>
+                      Meghna Roy
+                    </h4>
+                    <h3>Member</h3>
+                    <a class="fa fa-linkedin-square" style="color: #084a84;; font-size: 24px;"
+                      href=" https://www.linkedin.com/in/meghna-roy-b94458178" target="_blank"></a>
+                  </div>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-4 p-4">
+                  <div class="service-item col-md-auto">
                     <img src="img/Raj.png" class="img-fluid" alt="" />
                     <div class="line-dec-team-mem"></div>
                     <h4>
@@ -415,6 +438,18 @@
                     <h3>Member</h3>
                     <a class="fa fa-linkedin-square" style="color: #084a84;; font-size: 24px;"
                       href="https://www.linkedin.com/in/rajdeep-ghosh-301082175/" target="_blank"></a>
+                  </div>
+                </div>
+                <div class="col-md-4 p-4">
+                  <div class="service-item col-md-auto">
+                    <img src="img/nirupam.png" class="img-fluid" alt="" />
+                    <div class="line-dec-team-mem"></div>
+                    <h4>
+                      Nirupam Dey
+                    </h4>
+                    <h3>Member</h3>
+                    <a class="fa fa-linkedin-square" style="color: #084a84; font-size: 24px;"
+                      href="http://www.linkedin.com/in/nirupam-d-6a2490140/" target="_blank"></a>
                   </div>
                 </div>
                 <div class="col-md-4"></div>
