@@ -45,6 +45,7 @@ a:hover {
   right: 0;
   bottom: 0;
   margin: auto;
+  margin-top: 200px;
 }
 
 .tagline {
@@ -69,6 +70,7 @@ a:hover {
     position: absolute;
     top: 0;
     left: 0;
+    margin-top: 120px;
   }
   .tagline {
     color: #00b7ff;
@@ -347,6 +349,7 @@ a:hover {
   width: 100%;
   font-size: medium;
   font-family: 'Courier New', Courier, monospace;
+  padding-top: 23px;
 }
 
 .service-content .left-text p {
