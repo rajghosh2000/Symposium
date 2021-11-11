@@ -540,7 +540,7 @@ h4,
 }
 
 .project-content .service-item p{
-  font-size: 13.5px;
+  font-size: 12px;
 }
 
 .project-content .service-content p {
@@ -560,6 +560,23 @@ h4,
   margin: 20px auto 15px auto;
 }
 
+.project-content .service-item-deadline {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 25px 30px;
+  color: #fff;
+  border-radius: 50px;
+  font-family: 'Courier New', Courier, monospace;
+  height: 60px;
+  width: 340px;
+  text-align: start;
+  justify-content: center;
+}
+
+.project-content .left-text .service-item-deadline h4 {
+  font-size: 16px;
+  color: rgb(236, 233, 233);
+}
+
 .project-content .primary-button-spklop a {
   display: inline-block;
   background-color: #499d0d;
@@ -570,7 +587,7 @@ h4,
   font-weight: 700;
   text-decoration: none;
   letter-spacing: 0.5px;
-  width: 100%;
+  width: 80%;
   margin-bottom: 10px;
 }
 
@@ -609,6 +626,7 @@ h4,
   border-radius: 50px;
   font-family: 'Courier New', Courier, monospace;
   margin-top: 20px;
+
 }
 
 .project-content .eve-date p {
@@ -1465,6 +1483,15 @@ time {
     height: auto;
     width: 100%;
     margin-top: 5px;
+  }
+  .project-content .service-item-deadline {
+    width: 290px;
+  }
+  .project-content .service-item-deadline h4 {
+    font-size: 12px;
+  }
+  .project-content .primary-button-spklop a {
+    width: 100%;
   }
 }
 
